@@ -1,4 +1,4 @@
-#port-scan-day1
+port-scan-day1
 
 Author: Aashutosh Rana
 Date: 22-09-2025
