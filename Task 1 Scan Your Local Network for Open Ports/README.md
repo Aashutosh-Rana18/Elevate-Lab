@@ -1,37 +1,134 @@
-#🔍 Day 1 – Exploring Nmap and Nessus (Port Scanning)
+port-scan-day1
+
 Author: Aashutosh Rana
 Date: 22-09-2025
 
-✨ Introduction
-This repository marks the beginning of my hands-on journey into network reconnaissance, focusing on port scanning with both Nmap and Nessus tools. The project covers discovering open ports, analyzing running services, and interpreting scan results effectively—critical skills for cybersecurity practitioners.
+Day 1 — Hands-on exploration of port scanning using Nmap and Nessus.
 
-📂 Repository Layout
+Table of Contents
+
+Project Overview
+
+Repository Layout
+
+Tools & Methods
+
+How to Reproduce Scans (Examples)
+
+Outputs & Reports
+
+Key Takeaways
+
+Roadmap
+
+Contributing
+
+License
+
+Project Overview
+
+This repository documents Day 1 of my network reconnaissance learning journey.
+The primary focus is on:
+
+Discovering open ports
+
+Enumerating running services
+
+Interpreting scan results
+
+Both Nmap (for discovery and service detection) and Nessus (for vulnerability-oriented scanning) were used.
+
+Repository Layout
 port-scan-day1/
-├─ Detailed_Report.docx → Detailed insights and observations from Day 1
-├─ README.md → Overview and project documentation
-├─ Output.docx/ → Collected scan results Images
+├─ Detailed_Report.docx        # Detailed insights and observations from Day 1
+├─ README.md                   # Project overview and documentation
+├─ Output.docx/                # Collected scan results and images
+│  ├─ nmap/                    # Nmap outputs and screenshots
+│  └─ nessus/                  # Nessus reports and screenshots
+└─ scripts/                    # Helper scripts (if any, optional)
 
-⚙️ Tools & Methods
-Nmap – for versatile network discovery and security auditing
+Tools & Methods
 
-Nessus – for advanced vulnerability scanning with configurable port scans
+Nmap — versatile network discovery and service enumeration
 
-Command-Line Interface – for running scan commands
+TCP SYN scans, service/version detection, OS detection
 
-Markdown – for documentation and analysis delivery
+Nessus — advanced vulnerability scanning, including port-based assessments
 
-🚩 Key Takeaways
-Gained practical experience with both basic and advanced scanning techniques using Nmap
+Command-Line Interface (CLI) — to run and automate scans
 
-Leveraged Nessus to perform comprehensive port scanning and vulnerability assessment
+Markdown / Word docs — for reporting and documentation
 
-Generated and interpreted multiple output file types from the scans
+How to Reproduce Scans (Examples)
 
-Compiled findings into a clear, organized analysis report
+⚠️ Disclaimer: Run scans only on systems/networks you own or are authorized to test.
 
-Created a well-structured, shareable GitHub repository for reference and learning
+Nmap — Common Examples
+# Quick host discovery with top 100 ports
+nmap -Pn --top-ports 100 -oA output/top100 192.168.1.0/24
 
-🔮 Road Ahead
-This is the foundational Day 1 of my network security exploration. Future work will delve into more advanced scanning methods, service enumeration, and vulnerability analysis to enhance practical cybersecurity skills and knowledge.
+# Full TCP SYN scan + service/version + OS detection
+nmap -sS -sV -O -p- -T4 -oN output/full_scan.txt 192.168.1.10
 
-If desired, this can be further tailored for a technical audience or beginner learners.
+# Export in XML format
+nmap -sS -sV -oX output/scan.xml 192.168.1.10
+
+Nmap — Specific Checks
+# Scan selected ports with NSE scripts
+nmap -sV --script=banner,vuln -p 22,80,443 203.0.113.5 -oN output/target_quick.txt
+
+Nessus — Workflow
+
+Create a new scan (Basic Network Scan / Port Scan template) in the Nessus Web UI
+
+Configure target IPs or ranges
+
+Run the scan
+
+Export results (.html, .csv, .nessus) and store under Output.docx/nessus/
+
+Outputs & Reports
+
+Detailed_Report.docx — summary of findings, screenshots, and analysis
+
+Output.docx/ — raw outputs and exported reports
+
+nmap/ → .nmap, .xml, screenshots
+
+nessus/ → exported .nessus, .html, .pdf reports
+
+Key Takeaways
+
+Nmap is powerful for quick discovery, detailed enumeration, and flexible output formats.
+
+Nessus enhances analysis by mapping services to vulnerabilities (CVEs, misconfigurations).
+
+Documenting commands, scope, and timestamps ensures reproducibility and audit readiness.
+
+Ethical reminder: never scan systems without explicit permission.
+
+Roadmap
+
+Next steps beyond Day 1:
+
+Service-specific enumeration (HTTP, FTP, SMB, etc.)
+
+Parsing and analyzing Nmap XML for automation
+
+Authenticated Nessus scans for deeper insights
+
+Comparing pre- and post-remediation vulnerability reports
+
+Integration into vulnerability management workflows
+
+Contributing
+
+Want to improve this project?
+
+Open an issue with suggestions
+
+Submit a pull request with:
+
+Clear description of the changes
+
+Updated report files or new analysis
