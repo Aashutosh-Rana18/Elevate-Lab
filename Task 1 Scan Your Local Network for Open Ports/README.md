@@ -10,9 +10,10 @@ This repository marks the beginning of my hands-on journey into network reconnai
 ## 📂 Repository Layout
 
 ## Task 1 Scan Your Local Network for Open Ports/
-├─ Detailed_Report.docx   ← Comprehensive insights and observations from Day 1  
-├─ README.md             ← Project overview and documentation  
-├─ Output.docx/          ← Folder containing scan result images and output files  
+Detailed_Report.docx   ← A detailed report document for the project  
+README.md             ← Main documentation and overview file of the repository  
+scan_results.txt      ← Plain text scan results output  
+scan_results.xml      ← XML formatted scan results output  
 
 ## ⚙️ Tools & Methods
 
