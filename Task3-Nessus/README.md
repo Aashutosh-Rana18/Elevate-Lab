@@ -9,7 +9,9 @@ Nessus is a powerful tool to identify security vulnerabilities in networks, syst
 
 ## Repository Structure
 ├── Nessus.docx # Comprehensive Nessus documentation file
+
 ├── Procedure.docx # Step-by-step Nessus usage procedure
+
 └── README.md # This file
 
 ## Getting Started
