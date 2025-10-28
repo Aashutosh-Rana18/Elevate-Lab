@@ -1,7 +1,6 @@
 # 🔐 Task 6: Create a Strong Password and Evaluate Its Strength
 
 ### 👨‍💻 Author: *Aashutosh Rana*
-### 🗓️ Date: [Insert Date]
 ### 🧰 Tool Used: [Password Strength Meter](https://www.passwordmeter.com)
 
 
@@ -108,16 +107,22 @@ To understand what makes a password strong, test multiple passwords with varying
 Strong passwords are the **first line of defense** in cybersecurity.  
 By combining **length, complexity, and randomness**, and using **multi-factor authentication**, users can protect accounts from most modern attacks.
 
+## 📂 Repository Contents
 
-## 📂 **Repository Contents**
+Password-Security-Evaluation/
 
-📁 Password-Security-Evaluation/
 │
-├── Password_Test.docx
-├── README.md
-├── password1.png
-├── password2.png
-├── password3.png
-├── password4.png
-└── password5.png
 
+├── Password_Test.docx
+
+├── README.md
+
+├── password1.png
+
+├── password2.png
+
+├── password3.png
+
+├── password4.png
+
+└── password5.png
