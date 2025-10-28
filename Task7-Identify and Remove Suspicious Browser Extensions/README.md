@@ -101,11 +101,5 @@ To identify, analyze, and remove potentially harmful browser extensions in Micro
 
 ---
 
-### 📤 Submission  
-**GitHub Repository:** [Add your repo link here]  
-**Submission Form:** [https://forms.gle/8Gm83s53KbyXs3Ne9](https://forms.gle/8Gm83s53KbyXs3Ne9)
-
----
-
 **Author:** *Aashutosh Rana*  
 
