@@ -4,12 +4,10 @@
 ### 🗓️ Date: [Insert Date]
 ### 🧰 Tool Used: [Password Strength Meter](https://www.passwordmeter.com)
 
----
 
 ## 🎯 **Objective**
 To understand what makes a password strong, test multiple passwords with varying complexity, and analyze how password length and randomness affect overall security.
 
----
 
 ## 🧪 **1. Creating Multiple Passwords with Varying Complexity**
 
@@ -21,7 +19,6 @@ To understand what makes a password strong, test multiple passwords with varying
 | 4 | `#A7u!Lp3@zR` | Very Strong | Random, long, unpredictable |
 | 5 | `Blue$Night!29Sky#@_1@!` | Excellent | Long, mixed case, words + symbols |
 
----
 
 ## 📊 **2. Testing Each Password on Strength Checker**
 
@@ -38,7 +35,6 @@ To understand what makes a password strong, test multiple passwords with varying
 📸 *Screenshots of test results:*  
 `password1.png`, `password2.png`, `password3.png`, `password4.png`, `password5.png`
 
----
 
 ## 💡 **3. Tips Learned from the Evaluation**
 
@@ -48,7 +44,6 @@ To understand what makes a password strong, test multiple passwords with varying
 - **Long passwords** are much more secure — every extra character multiplies the difficulty.  
 - Use **password managers** to safely store complex passwords.
 
----
 
 ## 🛠️ **4. Best Practices for Creating Strong Passwords**
 
@@ -63,7 +58,6 @@ To understand what makes a password strong, test multiple passwords with varying
 9. Avoid sharing passwords or writing them down.  
 10. Check strength with **online password checkers**.
 
----
 
 ## 🔍 **5. Research on Common Password Attacks**
 
@@ -91,7 +85,6 @@ To understand what makes a password strong, test multiple passwords with varying
   Manipulates users to reveal passwords.  
   🔒 *Prevention:* Never share credentials and verify requests.
 
----
 
 ## 🔐 **6. How Password Complexity Affects Security**
 
@@ -102,7 +95,6 @@ To understand what makes a password strong, test multiple passwords with varying
 - Complexity and unpredictability make **brute-force and dictionary attacks ineffective**.  
 - Using symbols, mixed case, and long phrases ensures **maximum entropy**.
 
----
 
 ## 🧾 **Outcome**
 
@@ -111,14 +103,11 @@ To understand what makes a password strong, test multiple passwords with varying
 - Developed **best practices** for secure password management.  
 - Gained insight into **how password complexity protects against cyber threats**.
 
----
-
 ## 🧠 **Summary**
 
 Strong passwords are the **first line of defense** in cybersecurity.  
 By combining **length, complexity, and randomness**, and using **multi-factor authentication**, users can protect accounts from most modern attacks.
 
----
 
 ## 📂 **Repository Contents**
 
