@@ -50,7 +50,7 @@ To identify, analyze, and remove potentially harmful browser extensions in Micro
 ### 🧩 Before and After Cleanup  
 
 #### 📸 Installed Extensions (Before)  
-![Extensions Before Cleanup](extensions_list.png.png)
+![Extensions Before Cleanup](extensions_list.png)
 
 #### 📸 Extensions After Cleanup  
 ![Extensions After Cleanup](extensions_after_cleanup.png)
